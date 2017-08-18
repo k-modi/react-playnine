@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#mountNode {
+  color: #000;
+}
+
+.fa {
+  background:transparent;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+
+.fa-star {
+  margin: 0.5em;
+  /* font-size: 20px; */
+}
+
+span {
+  display: inline-block;
+  margin: 0.5em;
+  width: 24px;
+  text-align: center;
+  background-color: #a9a9a9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #00ced1;
+  color: #ddd;
+}
+
+.used {
+  background-color: #dcdcdc;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 25%;
+}
+thead tr {
+  font-weight: bold;
+  background-color: #99bb99;
+  text-align: center;
+}
+tr {
+  vertical-align: top;
+}
+tr:nth-child(even) {
+    background-color: #dcdcdc;
+}
